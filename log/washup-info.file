@@ -36,3 +36,22 @@
 2021-07-03 00:23:02,230 || [SpringApplicationShutdownHook] || INFO  || org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl:526 || HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
 2021-07-03 00:23:05,095 || [SpringApplicationShutdownHook] || INFO  || com.zaxxer.hikari.HikariDataSource:350 || HikariPool-1 - Shutdown initiated...
 2021-07-03 00:23:05,117 || [SpringApplicationShutdownHook] || INFO  || com.zaxxer.hikari.HikariDataSource:352 || HikariPool-1 - Shutdown completed.
+2021-07-03 00:29:43,155 || [background-preinit] || INFO  || org.hibernate.validator.internal.util.Version:21 || HV000001: Hibernate Validator 6.0.13.Final
+2021-07-03 00:29:43,219 || [main] || INFO  || org.springframework.boot.StartupInfoLogger:55 || Starting WorktrialBackendApplicationTests using Java 1.8.0_281 on Oket with PID 14464 (started by LED COM in C:\Users\LED COM\Desktop\Work-Trial-Ecommerce\worktrial-backend)
+2021-07-03 00:29:43,238 || [main] || INFO  || org.springframework.boot.SpringApplication:659 || No active profile set, falling back to default profiles: default
+2021-07-03 00:29:46,507 || [main] || INFO  || org.springframework.data.repository.config.RepositoryConfigurationDelegate:132 || Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-07-03 00:29:46,701 || [main] || INFO  || org.springframework.data.repository.config.RepositoryConfigurationDelegate:201 || Finished Spring Data repository scanning in 176 ms. Found 5 JPA repository interfaces.
+2021-07-03 00:29:48,633 || [main] || INFO  || org.hibernate.jpa.internal.util.LogHelper:31 || HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-07-03 00:29:48,800 || [main] || INFO  || org.hibernate.Version:44 || HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-07-03 00:29:49,132 || [main] || INFO  || org.hibernate.annotations.common.reflection.java.JavaReflectionManager:56 || HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-07-03 00:29:49,595 || [main] || INFO  || com.zaxxer.hikari.HikariDataSource:110 || HikariPool-1 - Starting...
+2021-07-03 00:29:52,598 || [main] || INFO  || com.zaxxer.hikari.HikariDataSource:123 || HikariPool-1 - Start completed.
+2021-07-03 00:29:52,634 || [main] || INFO  || org.hibernate.dialect.Dialect:175 || HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-07-03 00:30:04,185 || [main] || INFO  || org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52 || HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-07-03 00:30:04,199 || [main] || INFO  || org.springframework.orm.jpa.AbstractEntityManagerFactoryBean:437 || Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-07-03 00:30:07,826 || [main] || WARN  || org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration:219 || spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-07-03 00:30:13,441 || [main] || INFO  || org.springframework.boot.StartupInfoLogger:61 || Started WorktrialBackendApplicationTests in 32.121 seconds (JVM running for 35.045)
+2021-07-03 00:30:14,014 || [SpringApplicationShutdownHook] || INFO  || org.springframework.orm.jpa.AbstractEntityManagerFactoryBean:651 || Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-07-03 00:30:14,016 || [SpringApplicationShutdownHook] || INFO  || org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl:526 || HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-07-03 00:30:18,968 || [SpringApplicationShutdownHook] || INFO  || com.zaxxer.hikari.HikariDataSource:350 || HikariPool-1 - Shutdown initiated...
+2021-07-03 00:30:22,117 || [SpringApplicationShutdownHook] || INFO  || com.zaxxer.hikari.HikariDataSource:352 || HikariPool-1 - Shutdown completed.
