@@ -3322,3 +3322,22 @@ Unconditional classes:
 2021-07-02 23:36:34,794 || [SpringApplicationShutdownHook] || INFO  || org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl:526 || HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
 2021-07-02 23:36:39,030 || [SpringApplicationShutdownHook] || INFO  || com.zaxxer.hikari.HikariDataSource:350 || HikariPool-1 - Shutdown initiated...
 2021-07-02 23:36:39,058 || [SpringApplicationShutdownHook] || INFO  || com.zaxxer.hikari.HikariDataSource:352 || HikariPool-1 - Shutdown completed.
+2021-07-02 23:47:03,398 || [background-preinit] || INFO  || org.hibernate.validator.internal.util.Version:21 || HV000001: Hibernate Validator 6.0.13.Final
+2021-07-02 23:47:03,451 || [main] || INFO  || org.springframework.boot.StartupInfoLogger:55 || Starting WorktrialBackendApplicationTests using Java 1.8.0_281 on Oket with PID 13504 (started by LED COM in C:\Users\LED COM\Desktop\Work-Trial-Ecommerce\worktrial-backend)
+2021-07-02 23:47:03,464 || [main] || INFO  || org.springframework.boot.SpringApplication:659 || No active profile set, falling back to default profiles: default
+2021-07-02 23:47:07,240 || [main] || INFO  || org.springframework.data.repository.config.RepositoryConfigurationDelegate:132 || Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-07-02 23:47:07,503 || [main] || INFO  || org.springframework.data.repository.config.RepositoryConfigurationDelegate:201 || Finished Spring Data repository scanning in 240 ms. Found 5 JPA repository interfaces.
+2021-07-02 23:47:09,692 || [main] || INFO  || org.hibernate.jpa.internal.util.LogHelper:31 || HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-07-02 23:47:09,917 || [main] || INFO  || org.hibernate.Version:44 || HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-07-02 23:47:10,334 || [main] || INFO  || org.hibernate.annotations.common.reflection.java.JavaReflectionManager:56 || HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-07-02 23:47:10,933 || [main] || INFO  || com.zaxxer.hikari.HikariDataSource:110 || HikariPool-1 - Starting...
+2021-07-02 23:47:14,391 || [main] || INFO  || com.zaxxer.hikari.HikariDataSource:123 || HikariPool-1 - Start completed.
+2021-07-02 23:47:14,423 || [main] || INFO  || org.hibernate.dialect.Dialect:175 || HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-07-02 23:47:28,487 || [main] || INFO  || org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52 || HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-07-02 23:47:28,500 || [main] || INFO  || org.springframework.orm.jpa.AbstractEntityManagerFactoryBean:437 || Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-07-02 23:47:33,349 || [main] || WARN  || org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration:219 || spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-07-02 23:47:39,407 || [main] || INFO  || org.springframework.boot.StartupInfoLogger:61 || Started WorktrialBackendApplicationTests in 37.966 seconds (JVM running for 44.763)
+2021-07-02 23:47:40,075 || [SpringApplicationShutdownHook] || INFO  || org.springframework.orm.jpa.AbstractEntityManagerFactoryBean:651 || Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-07-02 23:47:40,076 || [SpringApplicationShutdownHook] || INFO  || org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl:526 || HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-07-02 23:47:44,111 || [SpringApplicationShutdownHook] || INFO  || com.zaxxer.hikari.HikariDataSource:350 || HikariPool-1 - Shutdown initiated...
+2021-07-02 23:47:44,127 || [SpringApplicationShutdownHook] || INFO  || com.zaxxer.hikari.HikariDataSource:352 || HikariPool-1 - Shutdown completed.
