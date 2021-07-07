@@ -27,11 +27,11 @@ public class CustomCorsFilter extends CorsFilter {
     protected void doFilterInternal(HttpServletRequest request, HttpServletResponse response, FilterChain filterChain) throws ServletException, IOException {
         String referer = request.getHeader(REFERER_HEADER);
         String clientDomain = "*";
-        try {
-            URL url = new URL(referer);
-            clientDomain = String.format(DOMAIN_FORMAT, url.getProtocol(), url.getHost(), url.getPort());
-        } catch (MalformedURLException ignored) {
-        }
+//        try {
+//            URL url = new URL(referer);
+//            clientDomain = String.format(DOMAIN_FORMAT, url.getProtocol(), url.getHost(), url.getPort());
+//        } catch (MalformedURLException ignored) {
+//        }
         response.setHeader("Access-Control-Allow-Origin", clientDomain);
         response.setHeader("Access-Control-Allow-Credentials", "true");
         response.setHeader("Access-Control-Allow-Methods", "GET, POST, PUT, PATCH, DELETE");
