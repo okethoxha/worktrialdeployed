@@ -29,7 +29,7 @@ public class CustomCorsFilter extends CorsFilter {
         String clientDomain = "*";
         try {
             URL url = new URL(referer);
-            clientDomain = String.format(DOMAIN_FORMAT, url.getProtocol(), "localhost", url.getPort());
+            clientDomain = String.format(DOMAIN_FORMAT, url.getProtocol(), url.getHost(), url.getPort());
         } catch (MalformedURLException ignored) {
         }
         response.setHeader("Access-Control-Allow-Origin", clientDomain);
