@@ -5,3 +5,163 @@
 2021-07-07 10:51:11,602 || [http-nio-8080-exec-1] || ERROR || com.worktrial.task.controllers.ExceptionHandlingController:45 || No handler found for GET /HNAP1/
 2021-07-07 10:51:11,605 || [http-nio-8080-exec-1] || WARN  || org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver:207 || Resolved [org.springframework.web.servlet.NoHandlerFoundException: No handler found for GET /HNAP1/]
 2021-07-07 10:51:17,613 || [HikariPool-1 housekeeper] || WARN  || com.zaxxer.hikari.pool.HikariPool$HouseKeeper:788 || HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=11h2m54s255ms278µs960ns).
+2021-07-07 11:28:38,965 || [Thread-5] || INFO  || org.springframework.orm.jpa.AbstractEntityManagerFactoryBean:651 || Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-07-07 11:28:39,021 || [Thread-5] || INFO  || com.zaxxer.hikari.HikariDataSource:350 || HikariPool-1 - Shutdown initiated...
+2021-07-07 11:28:39,069 || [Thread-5] || INFO  || com.zaxxer.hikari.HikariDataSource:352 || HikariPool-1 - Shutdown completed.
+2021-07-07 11:28:40,099 || [restartedMain] || INFO  || org.springframework.boot.StartupInfoLogger:55 || Starting WorktrialBackendApplication using Java 11.0.10 on Oket with PID 13488 (C:\Users\LED COM\Desktop\Work-Trial-Ecommerce\worktrial-backend\target\classes started by LED COM in C:\Users\LED COM\Desktop\Work-Trial-Ecommerce\worktrial-backend)
+2021-07-07 11:28:40,100 || [restartedMain] || INFO  || org.springframework.boot.SpringApplication:659 || No active profile set, falling back to default profiles: default
+2021-07-07 11:28:40,650 || [restartedMain] || INFO  || org.springframework.data.repository.config.RepositoryConfigurationDelegate:132 || Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-07-07 11:28:40,652 || [restartedMain] || INFO  || org.springframework.data.repository.config.RepositoryConfigurationDelegate:201 || Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+2021-07-07 11:28:40,983 || [restartedMain] || INFO  || org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108 || Tomcat initialized with port(s): 8080 (http)
+2021-07-07 11:28:40,986 || [restartedMain] || INFO  || org.apache.juli.logging.DirectJDKLog:173 || Initializing ProtocolHandler ["http-nio-8080"]
+2021-07-07 11:28:40,987 || [restartedMain] || INFO  || org.apache.juli.logging.DirectJDKLog:173 || Starting service [Tomcat]
+2021-07-07 11:28:40,988 || [restartedMain] || INFO  || org.apache.juli.logging.DirectJDKLog:173 || Starting Servlet engine: [Apache Tomcat/9.0.48]
+2021-07-07 11:28:41,033 || [restartedMain] || INFO  || org.apache.juli.logging.DirectJDKLog:173 || Initializing Spring embedded WebApplicationContext
+2021-07-07 11:28:41,034 || [restartedMain] || INFO  || org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:290 || Root WebApplicationContext: initialization completed in 926 ms
+2021-07-07 11:28:41,488 || [restartedMain] || INFO  || org.hibernate.jpa.internal.util.LogHelper:31 || HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-07-07 11:28:41,528 || [restartedMain] || INFO  || com.zaxxer.hikari.HikariDataSource:110 || HikariPool-2 - Starting...
+2021-07-07 11:28:43,659 || [restartedMain] || INFO  || com.zaxxer.hikari.HikariDataSource:123 || HikariPool-2 - Start completed.
+2021-07-07 11:28:43,659 || [restartedMain] || INFO  || org.hibernate.dialect.Dialect:175 || HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-07-07 11:28:45,134 || [restartedMain] || INFO  || org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52 || HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-07-07 11:28:45,135 || [restartedMain] || INFO  || org.springframework.orm.jpa.AbstractEntityManagerFactoryBean:437 || Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-07-07 11:28:45,387 || [restartedMain] || WARN  || org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration:219 || spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-07-07 11:28:46,983 || [restartedMain] || INFO  || org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:58 || LiveReload server is running on port 35729
+2021-07-07 11:28:47,040 || [restartedMain] || INFO  || org.apache.juli.logging.DirectJDKLog:173 || Starting ProtocolHandler ["http-nio-8080"]
+2021-07-07 11:28:47,055 || [restartedMain] || INFO  || org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220 || Tomcat started on port(s): 8080 (http) with context path ''
+2021-07-07 11:28:47,085 || [restartedMain] || INFO  || org.springframework.boot.StartupInfoLogger:61 || Started WorktrialBackendApplication in 7.319 seconds (JVM running for 46682.563)
+2021-07-07 11:28:47,099 || [restartedMain] || INFO  || org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener:58 || Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+   ErrorMvcAutoConfiguration#basicErrorController matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.web.servlet.error.ErrorController; SearchStrategy: current) did not find any beans (OnBeanCondition)
+
+
+Negative matches:
+-----------------
+
+    None
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2021-07-07 11:28:48,692 || [Thread-7] || INFO  || org.springframework.orm.jpa.AbstractEntityManagerFactoryBean:651 || Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-07-07 11:28:48,694 || [Thread-7] || INFO  || com.zaxxer.hikari.HikariDataSource:350 || HikariPool-2 - Shutdown initiated...
+2021-07-07 11:28:48,915 || [Thread-7] || INFO  || com.zaxxer.hikari.HikariDataSource:352 || HikariPool-2 - Shutdown completed.
+2021-07-07 11:28:49,299 || [restartedMain] || INFO  || org.springframework.boot.StartupInfoLogger:55 || Starting WorktrialBackendApplication using Java 11.0.10 on Oket with PID 13488 (C:\Users\LED COM\Desktop\Work-Trial-Ecommerce\worktrial-backend\target\classes started by LED COM in C:\Users\LED COM\Desktop\Work-Trial-Ecommerce\worktrial-backend)
+2021-07-07 11:28:49,301 || [restartedMain] || INFO  || org.springframework.boot.SpringApplication:659 || No active profile set, falling back to default profiles: default
+2021-07-07 11:28:50,013 || [restartedMain] || INFO  || org.springframework.data.repository.config.RepositoryConfigurationDelegate:132 || Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-07-07 11:28:50,016 || [restartedMain] || INFO  || org.springframework.data.repository.config.RepositoryConfigurationDelegate:201 || Finished Spring Data repository scanning in 2 ms. Found 0 JPA repository interfaces.
+2021-07-07 11:28:50,428 || [restartedMain] || INFO  || org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108 || Tomcat initialized with port(s): 8080 (http)
+2021-07-07 11:28:50,430 || [restartedMain] || INFO  || org.apache.juli.logging.DirectJDKLog:173 || Initializing ProtocolHandler ["http-nio-8080"]
+2021-07-07 11:28:50,431 || [restartedMain] || INFO  || org.apache.juli.logging.DirectJDKLog:173 || Starting service [Tomcat]
+2021-07-07 11:28:50,433 || [restartedMain] || INFO  || org.apache.juli.logging.DirectJDKLog:173 || Starting Servlet engine: [Apache Tomcat/9.0.48]
+2021-07-07 11:28:50,504 || [restartedMain] || INFO  || org.apache.juli.logging.DirectJDKLog:173 || Initializing Spring embedded WebApplicationContext
+2021-07-07 11:28:50,504 || [restartedMain] || INFO  || org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:290 || Root WebApplicationContext: initialization completed in 1196 ms
+2021-07-07 11:28:50,610 || [restartedMain] || INFO  || org.hibernate.jpa.internal.util.LogHelper:31 || HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-07-07 11:28:50,626 || [restartedMain] || INFO  || com.zaxxer.hikari.HikariDataSource:110 || HikariPool-3 - Starting...
+2021-07-07 11:28:52,641 || [restartedMain] || INFO  || com.zaxxer.hikari.HikariDataSource:123 || HikariPool-3 - Start completed.
+2021-07-07 11:28:52,642 || [restartedMain] || INFO  || org.hibernate.dialect.Dialect:175 || HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-07-07 11:28:53,746 || [restartedMain] || INFO  || org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52 || HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-07-07 11:28:53,746 || [restartedMain] || INFO  || org.springframework.orm.jpa.AbstractEntityManagerFactoryBean:437 || Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-07-07 11:28:53,877 || [restartedMain] || WARN  || org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration:219 || spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-07-07 11:28:54,263 || [restartedMain] || INFO  || org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:58 || LiveReload server is running on port 35729
+2021-07-07 11:28:54,292 || [restartedMain] || INFO  || org.apache.juli.logging.DirectJDKLog:173 || Starting ProtocolHandler ["http-nio-8080"]
+2021-07-07 11:28:54,299 || [restartedMain] || INFO  || org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220 || Tomcat started on port(s): 8080 (http) with context path ''
+2021-07-07 11:28:54,309 || [restartedMain] || INFO  || org.springframework.boot.StartupInfoLogger:61 || Started WorktrialBackendApplication in 5.225 seconds (JVM running for 46689.787)
+2021-07-07 11:28:54,313 || [restartedMain] || INFO  || org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener:63 || Condition evaluation unchanged
+2021-07-07 11:28:55,982 || [Thread-11] || INFO  || org.springframework.orm.jpa.AbstractEntityManagerFactoryBean:651 || Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-07-07 11:28:55,988 || [Thread-11] || INFO  || com.zaxxer.hikari.HikariDataSource:350 || HikariPool-3 - Shutdown initiated...
+2021-07-07 11:28:56,425 || [Thread-11] || INFO  || com.zaxxer.hikari.HikariDataSource:352 || HikariPool-3 - Shutdown completed.
+2021-07-07 11:28:56,774 || [restartedMain] || INFO  || org.springframework.boot.StartupInfoLogger:55 || Starting WorktrialBackendApplication using Java 11.0.10 on Oket with PID 13488 (C:\Users\LED COM\Desktop\Work-Trial-Ecommerce\worktrial-backend\target\classes started by LED COM in C:\Users\LED COM\Desktop\Work-Trial-Ecommerce\worktrial-backend)
+2021-07-07 11:28:56,783 || [restartedMain] || INFO  || org.springframework.boot.SpringApplication:659 || No active profile set, falling back to default profiles: default
+2021-07-07 11:28:57,551 || [restartedMain] || INFO  || org.springframework.data.repository.config.RepositoryConfigurationDelegate:132 || Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-07-07 11:28:57,682 || [restartedMain] || INFO  || org.springframework.data.repository.config.RepositoryConfigurationDelegate:201 || Finished Spring Data repository scanning in 130 ms. Found 5 JPA repository interfaces.
+2021-07-07 11:28:57,985 || [restartedMain] || INFO  || org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108 || Tomcat initialized with port(s): 8080 (http)
+2021-07-07 11:28:57,986 || [restartedMain] || INFO  || org.apache.juli.logging.DirectJDKLog:173 || Initializing ProtocolHandler ["http-nio-8080"]
+2021-07-07 11:28:57,987 || [restartedMain] || INFO  || org.apache.juli.logging.DirectJDKLog:173 || Starting service [Tomcat]
+2021-07-07 11:28:57,987 || [restartedMain] || INFO  || org.apache.juli.logging.DirectJDKLog:173 || Starting Servlet engine: [Apache Tomcat/9.0.48]
+2021-07-07 11:28:58,035 || [restartedMain] || INFO  || org.apache.juli.logging.DirectJDKLog:173 || Initializing Spring embedded WebApplicationContext
+2021-07-07 11:28:58,036 || [restartedMain] || INFO  || org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:290 || Root WebApplicationContext: initialization completed in 1240 ms
+2021-07-07 11:28:58,166 || [restartedMain] || WARN  || org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration:219 || spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-07-07 11:28:58,299 || [restartedMain] || INFO  || org.hibernate.jpa.internal.util.LogHelper:31 || HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-07-07 11:28:58,369 || [restartedMain] || INFO  || com.zaxxer.hikari.HikariDataSource:110 || HikariPool-4 - Starting...
+2021-07-07 11:29:00,429 || [restartedMain] || INFO  || com.zaxxer.hikari.HikariDataSource:123 || HikariPool-4 - Start completed.
+2021-07-07 11:29:00,430 || [restartedMain] || INFO  || org.hibernate.dialect.Dialect:175 || HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-07-07 11:29:01,790 || [restartedMain] || INFO  || org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52 || HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-07-07 11:29:01,791 || [restartedMain] || INFO  || org.springframework.orm.jpa.AbstractEntityManagerFactoryBean:437 || Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-07-07 11:29:02,419 || [background-preinit] || INFO  || org.hibernate.validator.internal.util.Version:21 || HV000001: Hibernate Validator 6.0.13.Final
+2021-07-07 11:29:02,474 || [main] || INFO  || org.springframework.boot.StartupInfoLogger:55 || Starting WorktrialBackendApplicationTests using Java 1.8.0_281 on Oket with PID 12868 (started by LED COM in C:\Users\LED COM\Desktop\Work-Trial-Ecommerce\worktrial-backend)
+2021-07-07 11:29:02,485 || [main] || INFO  || org.springframework.boot.SpringApplication:659 || No active profile set, falling back to default profiles: default
+2021-07-07 11:29:05,603 || [main] || INFO  || org.springframework.data.repository.config.RepositoryConfigurationDelegate:132 || Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-07-07 11:29:05,699 || [restartedMain] || INFO  || org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:58 || LiveReload server is running on port 35729
+2021-07-07 11:29:05,741 || [restartedMain] || INFO  || org.apache.juli.logging.DirectJDKLog:173 || Starting ProtocolHandler ["http-nio-8080"]
+2021-07-07 11:29:05,759 || [restartedMain] || INFO  || org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220 || Tomcat started on port(s): 8080 (http) with context path ''
+2021-07-07 11:29:05,774 || [restartedMain] || INFO  || org.springframework.boot.StartupInfoLogger:61 || Started WorktrialBackendApplication in 9.221 seconds (JVM running for 46701.251)
+2021-07-07 11:29:05,780 || [restartedMain] || INFO  || org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener:58 || Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+    None
+
+
+Negative matches:
+-----------------
+
+   ErrorMvcAutoConfiguration#basicErrorController:
+      Did not match:
+         - @ConditionalOnMissingBean (types: org.springframework.boot.web.servlet.error.ErrorController; SearchStrategy: current) found beans of type 'org.springframework.boot.web.servlet.error.ErrorController' exceptionHandlingController (OnBeanCondition)
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2021-07-07 11:29:05,885 || [main] || INFO  || org.springframework.data.repository.config.RepositoryConfigurationDelegate:201 || Finished Spring Data repository scanning in 261 ms. Found 5 JPA repository interfaces.
+2021-07-07 11:29:08,169 || [main] || INFO  || org.hibernate.jpa.internal.util.LogHelper:31 || HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-07-07 11:29:08,405 || [main] || INFO  || org.hibernate.Version:44 || HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-07-07 11:29:08,887 || [main] || INFO  || org.hibernate.annotations.common.reflection.java.JavaReflectionManager:56 || HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-07-07 11:29:09,414 || [main] || INFO  || com.zaxxer.hikari.HikariDataSource:110 || HikariPool-1 - Starting...
+2021-07-07 11:29:13,324 || [main] || INFO  || com.zaxxer.hikari.HikariDataSource:123 || HikariPool-1 - Start completed.
+2021-07-07 11:29:13,373 || [main] || INFO  || org.hibernate.dialect.Dialect:175 || HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-07-07 11:29:17,171 || [main] || INFO  || org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:52 || HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-07-07 11:29:17,200 || [main] || INFO  || org.springframework.orm.jpa.AbstractEntityManagerFactoryBean:437 || Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-07-07 11:29:21,286 || [main] || WARN  || org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration:219 || spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-07-07 11:29:26,753 || [main] || INFO  || org.springframework.boot.StartupInfoLogger:61 || Started WorktrialBackendApplicationTests in 26.105 seconds (JVM running for 29.554)
+2021-07-07 11:29:27,228 || [SpringApplicationShutdownHook] || INFO  || org.springframework.orm.jpa.AbstractEntityManagerFactoryBean:651 || Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-07-07 11:29:27,233 || [SpringApplicationShutdownHook] || INFO  || com.zaxxer.hikari.HikariDataSource:350 || HikariPool-1 - Shutdown initiated...
+2021-07-07 11:29:29,148 || [SpringApplicationShutdownHook] || INFO  || com.zaxxer.hikari.HikariDataSource:352 || HikariPool-1 - Shutdown completed.
